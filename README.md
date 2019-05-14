@@ -8,7 +8,7 @@
  ╚═╝  ╚═══╝  ╚═════╝  ╚══════╝  ╚══▀▀═╝  ╚══════╝ ╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚══════╝  ╚═════╝ ╚═╝  ╚═╝ ╚═╝  ╚═╝ 
   </pre>
 </center>
-Easy way to test NoSQLi in REST APIs
+The easy way to test NoSQLi in REST APIs
 
 ### install
 ```
@@ -19,6 +19,7 @@ nosqli-checkr scan --host="https://nosql-checkr-test.herokuapp.com/api/v1/login"
 ### Parameters
 
 - `-h or --host`: Route URL. Ex: https://nosql-checkr-test.herokuapp.com/api/v1/login
+- `-hr or --headers`: Route URL. Ex: x-api-key:4170fcff992f965d882784c316ca442ed05c16d2 or x-api-key:4170fcff992f965d882784c316ca442ed05c16d2,token:val,token2:val2
 - `-d or --data`: Request data: Ex: { "user": "wubba", "pass": "" }
 - `-m or --method`: Request method: Ex: post or POST
 - `-p or --params`: Request params which will be exploited: Ex: pass or user,pass
