@@ -35,7 +35,7 @@ nosqli-checkr scan --host="https://nosql-checkr-test.herokuapp.com/api/v1/login"
 
 - `Headers`: 
 ```
-nosqli-checkr scan --host="https://api.com/login" --headers='x-api-key:123' --method="POST" --params="id" --data='{"id":"_test-id_"}' --error-message='{"valid":false,"messsage":"error"}'
+nosqli-checkr scan --host="https://api.com/login" --headers='x-api-key:123;authorization:321' --method="POST" --params="id" --data='{"id":"_test-id_"}' --error-message='{"valid":false,"messsage":"error"}'
 ```
 
 ### demo
