@@ -19,7 +19,7 @@ nosqli-checkr scan --host="https://nosql-checkr-test.herokuapp.com/api/v1/login"
 ### Parameters
 
 - `-h or --host`: Route URL. Ex: https://nosql-checkr-test.herokuapp.com/api/v1/login
-- `-hr or --headers`: Request headers. Ex: token:val or token:val,token2:val2
+- `-hr or --headers`: Request headers. Ex: token:val or token:val;token2:val2
 - `-d or --data`: Request data: Ex: { "user": "wubba", "pass": "" }
 - `-m or --method`: Request method: Ex: post or POST
 - `-p or --params`: Request params which will be exploited: Ex: pass or user,pass
