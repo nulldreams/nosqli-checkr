@@ -13,6 +13,10 @@ The easy way to test NoSQLi in REST APIs
 ### install
 ```
 npm i -g nosqli-checkr
+```
+
+### Test
+```
 nosqli-checkr scan --host="https://nosql-checkr-test.herokuapp.com/api/v1/login" --data='{ "user": "wubba", "pass": "" }' --method="post" --params="pass" --error-message='{"success":false,"result":"user/pass not found"}'
 ```
 
